@@ -112,6 +112,7 @@ $User = $env:USERDOMAIN +"\" + $env:USERNAME
 $PEDir = "$TempDir\WinPE"
 $TempRegPath = "HKLM\WinPE"
 $TempRegName = "WinPe"
+$RegHive = "$MountDir\Windows\System32\config\SYSTEM"
 
 
 $StartDTM = (Get-Date)
